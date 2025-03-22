@@ -66,17 +66,6 @@ Total bytes transmitted per app.
 
 ---
 
-## 📚 Research & Theoretical Insights
-
-- Deep dive into TCP & UDP behaviors
-- Packet loss scenarios, RTT effects, Flow Control, Congestion Control
-- Protocol comparison (e.g., TCP vs UDP, QUIC, MPTCP)
-- Routing impacts (TTL, MTU, NAT, buffer overflows)
-- FlowPic & eTC methods for encrypted traffic classification
-- Accuracy rates in classifying VPN/Tor/non-VPN traffic
-
----
-
 ## 📌 Key Findings
 
 - Packet size & time features alone provide >85% accuracy
