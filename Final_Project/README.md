@@ -1,9 +1,9 @@
-# 📡 Encrypted Network Traffic Analysis & Classification
+#  Encrypted Network Traffic Analysis & Classification
 
 This project analyzes and classifies encrypted internet traffic using Python, data visualization, and machine learning techniques. 
 It includes traffic capture from various applications, statistical analysis, and traffic classification using a Random Forest classifier.
 
-## 🧪 Tools & Technologies
+##  Tools & Technologies
 
 - Python 3.11.9
 - Pandas, NumPy
@@ -14,7 +14,7 @@ It includes traffic capture from various applications, statistical analysis, and
 
 ---
 
-## 📊 Part A: Traffic Feature Analysis
+##  Part A: Traffic Feature Analysis
 
 ### A. Protocol Distribution by App  
 Side-by-side bar chart showing protocol usage per app.
@@ -39,18 +39,18 @@ Total bytes transmitted per app.
 
 ---
 
-## 🧠 Part B: Machine Learning Classifier
+##  Part B: Machine Learning Classifier
 
-### 🔁 Preprocessing
+###  Preprocessing
 - CSV merging with `merge_csv_files()`
 - Feature engineering: Flow_ID, Time_Diff, Ports
 - Dataset split (train/test)
 
-### 🤖 Models Trained
+###  Models Trained
 - **Scenario 1:** Using `Flow_ID`, `Length`, `Time`
 - **Scenario 2:** Using only `Length`, `Time`
 
-### 📈 Performance
+###  Performance
 - Accuracy scores
 - Classification reports
 - Actual vs Predicted tables
@@ -58,7 +58,7 @@ Total bytes transmitted per app.
 
 ---
 
-## 🧠 Part C: Advanced Traffic Detection (Mixed Data)
+##  Part C: Advanced Traffic Detection (Mixed Data)
 
 - Uses mixed traffic files like `Firefox_with_Spotify.csv`
 - Classifier tested on harder scenarios where flows are mixed
@@ -66,7 +66,7 @@ Total bytes transmitted per app.
 
 ---
 
-## 📌 Key Findings
+##  Key Findings
 
 - Packet size & time features alone provide >85% accuracy
 - Flow ID improves accuracy significantly (to ~95–99%)
